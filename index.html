@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" media="(min-width: 320px) and (max-width: 767.98px)" href="css/phone.css">
+        <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1119.98px)" href="css/pad.css">
+        <link rel="stylesheet" media="(min-width: 1120px)" href="css/desktop.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>Ремонт техники различных брендов</header>
+
+        <div class="swiper mySwiper phone">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/lenovo.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/samsung.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/acer.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/apple.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/bosch.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/hp.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/sony.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <button class="brand-button">
+                  <img src="img/viewsonic.png" class="brand-image">
+                  <img src="img/go.svg" class="go">
+                </button>
+              </div>
+            </div>
+            <div class="swiper-pagination">
+            </div>
+        </div>
+
+        <nav class="brands-grid pad desktop min">
+          <button class="brand-button">
+            <img src="img/lenovo.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/samsung.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/apple.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/viewsonic.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/bosch.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/hp.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/acer.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/sony.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/lenovo.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/samsung.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+          <button class="brand-button">
+            <img src="img/apple.png" class="brand-image">
+            <img src="img/go.svg" class="go">
+          </button>
+        </nav>
+
+        <button class="expander pad desktop min">
+          <img src="img/expander.svg" class="expander-icon">
+          <span class="expander-title">Показать все</span>
+        </button>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                centeredSlides: true,
+                spaceBetween: 30,
+                pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+        </script>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
+
